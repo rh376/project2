@@ -1,5 +1,6 @@
 name: Heroku Awake
 
+
 on:
   schedule:
     - cron: "*/30 * * * *"
@@ -11,4 +12,4 @@ jobs:
     steps:
       - uses: mikeesto/heroku-awake@1.0.0
         with:
-          URL: "https://kwilliam-prod.herokuapp.com/"
+          URL: "https://pr253-product.herokuapp.com/"
