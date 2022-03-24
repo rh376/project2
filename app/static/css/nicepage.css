@@ -4,7 +4,8 @@
  * Copyright 2014-2021 Froala Labs
  */
 body{
-    background: #0f0f0f;
+    background-image: url("../images/684064_b9da3.gif");
+    background-color: #cccccc;
 }
 .fr-clearfix::after {
   clear: both;
