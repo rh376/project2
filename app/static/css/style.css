@@ -32,7 +32,7 @@ header.nav-scrolled .main-navigation {
 }
 
 header.nav-scrolled .main-navigation .navbar-brand {
-  padding: 5px;
+  padding: 0px;
 }
 
 header.nav-scrolled .main-navigation .navbar-nav {
@@ -42,13 +42,13 @@ header.nav-scrolled .main-navigation .navbar-nav {
 header.nav-scrolled .main-navigation .navbar-nav .nav-item .nav-link {
   border-top: none;
   padding: 8px 15px;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 0.5px;
 }
 
 @media (min-width: 576px) {
   header.nav-scrolled .main-navigation .navbar-nav .nav-item .nav-link {
-    font-weight: 300;
+    font-weight: 400;
   }
 }
 
