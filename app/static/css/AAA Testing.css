@@ -1,3 +1,8 @@
+body {
+   margin: 0;
+   min-height: 100%;
+   width: 100%;
+}
  .u-section-1 {
   background-image: url("../images/936b4392339d17f21988c19fd6872b9ae7528181d1fb4c3ce49c6087dbb6db25594915169d2c37ae46b15b3b7fa3c35a5167cf9ec342442432ae03_1280.png");
   background-position: 50% 50%;
