@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: pr253/flaskproject
+          images: rh376/project1
 
       - name: Build and push
         uses: docker/build-push-action@v2
@@ -55,6 +55,6 @@ jobs:
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-          heroku_app_name: "pr253-product" #Must be unique in Heroku
-          heroku_email: "pr253@njit.edu"
+          heroku_app_name: "project1-prod1" #Must be unique in Heroku
+          heroku_email: "rh376@njit.edu"
           usedocker: true
