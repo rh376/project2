@@ -9,9 +9,11 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     {% block head %}
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"/>
-
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/z-style.css') }}"/>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/nicepage.css') }}"/>
+        <meta content="{{ url_for('static', filename='images/153996582-0.png') }}" itemprop="image">
         <title>{% block title %}{% endblock %}This is Pavly's Website</title>
+        <link rel="shortcut-icon" type="image/png" href="../static/images/153996582-0.png">
     {% endblock %}
 
 </head>
@@ -31,11 +33,9 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="{{ url_for('simple_pages.show', page="index")}}">Home</a>
+                                <a class="nav-link active" aria-current="page" href="{{ url_for('simple_pages.show', page="Home")}}">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="About")}}">About</a>
-                            </li>
+
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url_for('simple_pages.show', page="Git")}}">Git</a>
                             </li>
@@ -48,6 +48,21 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url_for('simple_pages.show', page="integrate-deploy")}}">Integrate & Deploy</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="Pylint")}}">Pylint</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="AAA-Testing")}}">Triple A</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="OOPs")}}">OOPs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="SOLID")}}">SOLID</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="About")}}">About</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -59,9 +74,9 @@
         {% endblock %}
     </div>
     <footer>
-        <p>Environment: {{ deployment_environment }} - {{ year }} <img class="u-image u-image-default u-preserve-proportions u-image-2" src="../static/images/5.png" alt="" data-image-width="50" data-image-height="50">By: {{ mymessage }} {{ format_price(1000000000) }}</p>
-        <div class="u-container-layout u-container-layout-1"><p class="u-text u-text-1">&nbsp;A simple yet adventurous programmer. Changing the world one line of code at a time. <a href=href="{{ url_for('simple_pages.show', page="About")}}" data-page-id="918311234" class="u-active-none u-border-none u-btn u-button-link u-button-style u-hover-none u-none u-text-palette-1-base u-btn-1">About Me</a></p>
-        </div>
+        <p>Environment: {{ deployment_environment }} - {{ year }} {{ format_price(1000000000) }} <img src="../static/images/5.png" alt="" data-image-width="50" data-image-height="50"> By: {{ mymessage }} A simple yet adventurous programmer. Changing the world one line of code at a time. <a href="{{ url_for('simple_pages.show', page="About")}}" ">About Me</a>
+        </p>
+
     </footer>
 
 </div>
