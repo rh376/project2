@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("../images/49451bd5-c58f-ad45-1587-e4be5aa24678.jpeg");
+  background-image: url("../images/retina_1708x683_cover-default-cover-5-3760de849e0adbc371c544c52090aa18.png");
   background-position: 50% 50%;
 }
 
@@ -7,7 +7,7 @@
   min-height: 727px;
 }
 
-.u-section-1 .u-text-1 {
+/*.u-section-1 .u-text-1 {
   text-transform: none;
   letter-spacing: normal;
   font-size: 3.75rem;
@@ -75,7 +75,7 @@
   width: 70px;
   height: 61px;
   margin: -282px auto 278px;
-}
+}*/
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {

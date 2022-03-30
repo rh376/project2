@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("../images/49451bd5-c58f-ad45-1587-e4be5aa24678.jpeg");
+  background-image: url("../images/soft-programming-gradation-blur-wallpaper-preview.jpeg");
   background-position: 50% 50%;
 }
 
@@ -23,14 +23,14 @@
   padding: 60px 30px;
 }
 
-.u-section-1 .u-image-1 {
+/*.u-section-1 .u-image-1 {
   width: 240px;
   height: 240px;
   background-image: url("../images/3c421278-4da8-eb8a-96fb-a6ad23c25e0d.jpeg");
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin: 0 auto 0 0;
-}
+}*/
 
 .u-section-1 .u-text-1 {
   letter-spacing: 2px;
@@ -62,14 +62,14 @@
   margin: 30px 102px 0 0;
 }
 
-.u-section-1 .u-image-2 {
+/*.u-section-1 .u-image-2 {
   width: 240px;
   height: 240px;
   background-image: url("../images/8e25d2bb-00d6-aebc-8535-d760ea9f198b.png");
   background-position: 50% 50%;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin: 20px 22px 0 auto;
-}
+}*/
 
 @media (max-width: 1199px) {
    .u-section-1 {

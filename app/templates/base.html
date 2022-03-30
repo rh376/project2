@@ -12,8 +12,8 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/z-style.css') }}"/>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/nicepage.css') }}"/>
         <meta content="{{ url_for('static', filename='images/153996582-0.png') }}" itemprop="image">
-        <title>{% block title %}{% endblock %}This is Pavly's Website</title>
-        <link rel="shortcut-icon" type="image/png" href="../static/images/153996582-0.png">
+        <title>{% block title %}{% endblock %}This is Raiyan's Website</title>
+        <!--<link rel="shortcut-icon" type="image/png" href="../static/images/153996582-0.png">-->
     {% endblock %}
 
 </head>
@@ -24,8 +24,8 @@
             <!-- As a link -->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container">
-                    <img class="u-image u-image-default u-preserve-proportions u-image-2" src="../static/images/153996582-0.png" alt="" data-image-width="50" data-image-height="50">
-                    <a class="navbar-brand" href="/">First App</a>
+                    <!--<img class="u-image u-image-default u-preserve-proportions u-image-2" src="../static/images/153996582-0.png" alt="" data-image-width="50" data-image-height="50">-->
+                    <a class="navbar-brand" href="/">Website</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -74,7 +74,7 @@
         {% endblock %}
     </div>
     <footer>
-        <p>Environment: {{ deployment_environment }} - {{ year }} {{ format_price(1000) }} <img src="../static/images/5.png" alt="" data-image-width="50" data-image-height="50"> By: {{ mymessage }} A simple yet adventurous programmer. Changing the world one line of code at a time. <a href="{{ url_for('simple_pages.show', page="About")}}" ">About Me</a>
+        <p style="color:white">Environment: {{ deployment_environment }} - {{ year }} {{ format_price(1000) }} <img src="../static/images/5.png" alt="" data-image-width="50" data-image-height="50">Raiyan Hossain<a href="{{ url_for('simple_pages.show', page="About")}}">&nbsp;About Me</a>
         </p>
 
     </footer>
