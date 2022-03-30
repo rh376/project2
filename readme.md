@@ -1,13 +1,13 @@
 # Project Setup
 
-[![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
+[![Production Workflow](https://github.com/rh376/project2/actions/workflows/prod.yml/badge.svg?branch=master)](https://github.com/rh376/project2/actions/workflows/prod.yml)
 
-* [Production Deployment](https://kwilliam-prod.herokuapp.com/)
+* [Production Deployment](https://project1-prod1.herokuapp.com/)
 
 
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
+[![Development Workflow](https://github.com/rh376/project2/actions/workflows/dev.yml/badge.svg)](https://github.com/rh376/project2/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+* [Developmental Deployment](https://project1-dev1.herokuapp.com/)
 
 ## Setting up CI/CD
 
